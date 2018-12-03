@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> 
+    <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Clinitian Management Portal</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
+
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+
+</head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <nav>
+            <div class="nav-wrapper">
+                <!--Logo Credits: https://www.brandcrowd.com/logo-design/details/28933-->
+                <a href="#!" class="brand-logo center"><img src="../assests/images/logo.jpg" height="65em"></a>
+                <ul class="hide-on-med-and-down">
+                    <li class="left">
+                        <a href="index.html">
+                            MANS 
+                            <small>  Health Tracking System</small>
+                        </a>
+                    </li>      
+                </ul>
+            </div>
+        </nav>
+        <form>
+            <div class="input-field inline">
+                <input id="username" type="text" class="validate">
+                <label for="Username">Enter Username*</label>
+                <span class="helper-text" data-error="wrong" data-success="right"></span>
+            </div>
+            <div class="input-field inline">
+                <input id="password" type="password" class="validate">
+                <label for="Password">Enter Password*</label>
+                <span class="helper-text" data-error="wrong" data-success="right"></span>
+            </div>
+            <button class="btn waves-effect waves-light" type="submit" name="action">Login
+                <i class="material-icons right">send</i>
+            </button>
+            <br/>
+            <!-- Modal Trigger -->
+            <button data-target="modal1" align="center" class="btn modal-trigger waves-effect waves-light">Register</button>
+        </form>
+        
+
+        <!-- Modal Structure -->
+        <div id="modal1" class="modal">
+            <div class="modal-content">
+                <h4>Register</h4>
+                <form>
+                    <div class="input-field inline">
+                        <input id="username" type="text" class="validate">
+                        <label for="Username">Enter Username*</label>
+                        <span class="helper-text" data-error="wrong" data-success="right">Helper text</span>
+                    </div>
+                    <div class="input-field inline">
+                        <input id="password" type="password" class="validate">
+                        <label for="Password">Enter Password*</label>
+                        <span class="helper-text" data-error="wrong" data-success="right">Helper text</span>
+                    </div>
+                    <div class="input-field inline">
+                        <input id="password" type="password" class="validate">
+                        <label for="Password">Confirm Password*</label>
+                        <span class="helper-text" data-error="wrong" data-success="right">Helper text</span>
+                    </div>
+                    <p>
+                        <label>
+                            <input class="with-gap" name="group1" type="radio" checked />
+                            <span>Doctor</span>
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <input class="with-gap" name="group1" type="radio" />
+                            <span>Nurse</span>
+                        </label>
+                    </p>
+                    <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                        <i class="material-icons right">send</i>
+                    </button>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button class="modal-close waves-effect waves-green btn-flat">Reset</button>
+            </div>
+        </div iv>
+
+        <!-- Jquery Core Js -->
+        <script src="../assests/jquery/jquery.min.js"></script>
+
+        <!--Custom JS-->
+        <script src="../assests/js/custom.js"></script>
+
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    </body>
+</html>
